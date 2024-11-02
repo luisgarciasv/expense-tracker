@@ -19,10 +19,6 @@ createJSON(args)
             console.warn(`${err.name}: ${err.message}`);
             if (err.cause) console.warn(err.cause);
         } else {
-            console.error(err)
+            console.error(err);
         }
     });
-
-// argsParser(args)
-//     .then((res) => console.log(res))
-//     .catch((error) => console.warn(error));
